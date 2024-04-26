@@ -30,6 +30,8 @@ public class StepDefinitionClass extends BaseClass {
       q500arusimuruku.click();	
       WebElement CartBtn = driver.findElement(By.xpath("//button[@class='single_add_to_cart_button button alt wp-element-button']"));
       CartBtn.click();
+      
+      System.out.println("I have change as Dev");
 	}
 	@Then("Checking that the count number of items added to the Cart")
 	public void checking_that_the_count_number_of_items_added_to_the_cart() {
